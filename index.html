@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <title>TI Projekt 1 - Paweł Korytowski</title>
+    <link href="projekt1.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="projekt2.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Jakie figury kreśli koło?</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" onclick="showCycloid(); return false">Cykloida</a></li>
+            <li><a href="index.html" onclick="showEpicycloid(); return false">Epicykloida</a></li>
+            <li><a href="index.html" onclick="showHipocycloid(); return false">Hipocykloida</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="prepareSection">
+            <div id="description">
+                <p>Wybierz jedną z powyższych opcji.</p>
+            </div>
+            <div id="params">
+                <div id="setParams"></div> 
+                <div id="showParams"></div> 
+            </div>
+        </div>
+        <div id="canv"></div>
+    </main>
+
+</body>
+</html>

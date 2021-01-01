@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    width: 80%;
+    margin: auto;
+    background: #707070;
+    box-sizing: border-box;
+}
+
+body > * {
+    font-family: Courier;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:  #3F3F3F;
+    color: white;
+    
+}
+
+header h1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;;
+    
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+    text-align: center;
+}
+
+  
+li {
+    display: inline-block;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+  
+li a:hover {
+    background-color: #d6aa62;
+    color: white;
+}
+
+main {
+    width: 100%;
+    background-color:  #5c5b5b;
+    height: 100%;
+    box-sizing: border-box; 
+    min-height: 600px;
+    padding: 0;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+#prepareSection {
+    width:100%;
+}
+
+#prepareSection > * {
+    color: white;
+}
+
+#description {
+    overflow: hidden;
+    text-align: center;
+}
+
+#description > p {
+    width:90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#description p{
+    overflow: hidden;
+}
+
+#params {
+    display: flex;
+}
+
+#setParams {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+} 
+
+#showParams {
+    width: 50%;
+} 
+
+#canv{
+    width: 100%;
+    padding-top: 40px;
+}
+
+
+#canv canvas {
+    margin-left: 35px;
+    margin-right: auto;
+}
