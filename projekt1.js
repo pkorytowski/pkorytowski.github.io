@@ -79,7 +79,7 @@ function showEpicycloid(){
     emptyCanvasContener();
 
     const descContener = document.getElementById("description");
-    descContener.innerHTML = `<p style = "padding: 10px; text-align:justify">Epicykloida – krzywa, jaką zakreśla ustalony punkt okręgu toczącego się bez poślizgu na zewnątrz innego, nieruchomego okręgu. 
+    descContener.innerHTML = `<p style = "padding: 10px; text-align:justify">Epicykloida to krzywa, jaką zakreśla ustalony punkt okręgu toczącego się bez poślizgu na zewnątrz innego, nieruchomego okręgu. 
     Ogólne równania epicykloidy mają postać: <br/></p>
     <p style="text-align: center;">
         x = (R + r) * cos(t) - c * cos(((R+r)/r) * t) <br/>
