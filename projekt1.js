@@ -86,7 +86,7 @@ function showEpicycloid(){
         y = (R + r) * sin(t) - c * sin(((R+r)/r) * t), <br/>
     </p>
     <p style = "padding: 10px; text-align:justify;">
-    gdzie R - promień nieruchomego koła, r - promień ruchomego koła, c - suma r i przesunięci względem r
+    gdzie R - promień nieruchomego koła, r - promień ruchomego koła, c - suma r i przesunięcia względem r
     </p><br/>`;
 
     const setParamsContener = document.getElementById("setParams");
@@ -146,7 +146,7 @@ function showHipocycloid(){
     y = (R - r) * sin(t) - c * sin(((R-r)/r) * t), <br/>
     </p>
     <p style = "padding: 10px; text-align:justify;">
-    gdzie R - promień nieruchomego koła, r - promień ruchomego koła, c - suma r i przesunięcie względem r
+    gdzie R - promień nieruchomego koła, r - promień ruchomego koła, c - suma r i przesunięcia względem r
     </p><br/>`;
 
     const setParamsContener = document.getElementById("setParams");
