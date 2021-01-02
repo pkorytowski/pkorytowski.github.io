@@ -29,7 +29,7 @@ function showCycloid(){
     y = r - c * cos(t), <br/>
     </p>
     <p style = "padding: 10px; text-align:justify;">
-    gdzie z jest sumą promienia i przesunięcia punktu względem krawędzi koła. 
+    gdzie r - promień koła, c - suma promienia i przesunięcia punktu względem krawędzi koła. 
 
     </p><br/>`;
 
@@ -37,7 +37,7 @@ function showCycloid(){
     setParamsContener.innerHTML = `
     
     <table style = "width:200px; margin:auto;">
-        <tr><td>Średnica koła</td><td><input type ="number" id="r" value=1 size=4></td></tr>
+        <tr><td>Promień koła</td><td><input type ="number" id="r" value=1 size=4></td></tr>
         <tr><td>Przesunięcie</td><td><input type ="number" id ="offset" value=0 size=4></td></tr>
     </table>
 
@@ -86,14 +86,14 @@ function showEpicycloid(){
         y = (R + r) * sin(t) - c * sin(((R+r)/r) * t), <br/>
     </p>
     <p style = "padding: 10px; text-align:justify;">
-    gdzie r - średnica nieruchomego koła, r - średnica ruchomego koła, c - suma r i przesunięci względem r
+    gdzie R - promień nieruchomego koła, r - promień ruchomego koła, c - suma r i przesunięci względem r
     </p><br/>`;
 
     const setParamsContener = document.getElementById("setParams");
     setParamsContener.innerHTML = `
     <table style = "width:300px; margin:auto;">
-        <tr><td>Średnica ruchomego koła</td><td><input type ="number" id="r" value=1 size="4"></td></tr>
-        <tr><td>Średnica nieruchomego koła</td><td><input type ="number" id="R" value=1 size="4"></td></tr>
+        <tr><td>Promień ruchomego koła</td><td><input type ="number" id="r" value=1 size="4"></td></tr>
+        <tr><td>Promień nieruchomego koła</td><td><input type ="number" id="R" value=1 size="4"></td></tr>
         <tr><td>Przesunięcie</td><td><input type ="number" id ="offset" value=0 size="4"></td></tr>
     </table>
 
@@ -146,14 +146,14 @@ function showHipocycloid(){
     y = (R - r) * sin(t) - c * sin(((R-r)/r) * t), <br/>
     </p>
     <p style = "padding: 10px; text-align:justify;">
-    gdzie r - średnica nieruchomego koła, r - średnica ruchomego koła, c - suma r i przesunięci względem r
+    gdzie R - promień nieruchomego koła, r - promień ruchomego koła, c - suma r i przesunięcie względem r
     </p><br/>`;
 
     const setParamsContener = document.getElementById("setParams");
     setParamsContener.innerHTML = `
     <table style = "width:300px; margin:auto;">
-        <tr><td>Średnica ruchomego koła</td><td><input type ="number" id="r" value=1 size=4></td></tr>
-        <tr><td>Średnica nieruchomego koła</td><td><input type ="number" id="R" value=1 size=4></td></tr>
+        <tr><td>Promień ruchomego koła</td><td><input type ="number" id="r" value=1 size=4></td></tr>
+        <tr><td>Promień nieruchomego koła</td><td><input type ="number" id="R" value=1 size=4></td></tr>
         <tr><td>Przesunięcie</td><td><input type ="number" id ="offset" value=0 size=4></td></tr>
     </table>
 
